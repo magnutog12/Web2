@@ -1,12 +1,45 @@
-*{
-    margin: 0;
-	  padding:: 0;
-	font-family: sans-serif;
-    h1{
-  background-image: url('chalktexture.jpg');
-  padding-left: 11em;
-  padding-right: 20em;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: darkblue;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
 }
