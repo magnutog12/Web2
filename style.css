@@ -52,6 +52,10 @@ footer {
   left: 0;
   right: 0;
 }
+.my-link {
+  color: black;
+  text-decoration: underline;
+}
 
 
 
